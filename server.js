@@ -12,7 +12,7 @@ const app = express();
 
 //Rotas
 
-app.use('/API/products', productRoutes);
+app.use('/api/products', productRoutes);
 
 //Servidor 
 

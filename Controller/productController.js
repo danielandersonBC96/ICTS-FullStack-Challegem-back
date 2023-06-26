@@ -20,7 +20,7 @@ const GetAllProducts = async ( req, res) => {
 const GetProductsById = async ( req, res) => {
     try {
 
-        const product = await Product.findById(req.params.Id);
+        const product = await Product.findById(req.params.id);
         res.json(product)
 
     } catch (error){
